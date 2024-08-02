@@ -7,13 +7,6 @@
         margin-top: -280px;*/
 }
 
-.ds4.disconnected {
-    background: url(ps4-assets/disconnected.svg);
-}
-
-.ds4.disconnected div {
-    display: none;
-}
 
 .ds4 .triggers {
     width: 588px;
@@ -68,58 +61,6 @@
     transform: rotateY(180deg);
 }
 
-.ds4 .touchpad {
-    width: 262px;
-    height: 151px;
-    position: absolute;
-    left: 272px;
-    top: 122px;
-}
-
-.ds4 .touchpad.pressed {
-    background: url(ps4-assets/touchpad.svg) no-repeat center;
-}
-
-.ds4 .meta {
-    width: 42px;
-    height: 42px;
-    position: absolute;
-    left: 382px;
-    bottom: 216px;
-}
-
-.ds4 .meta.pressed {
-    background: url(ps4-assets/meta.svg) no-repeat center;
-}
-
-/*Not needed, but I like keeping them here for posterity*/
-/*.ds4 .quadrant{
-position: absolute;
-background: url(ps4-assets/player-n.svg);
-height: 17px;
-width: 111px;
-top: 140px;
-left: 240px;
-}
-.ds4 .p0{
-background-position: 0 -6px;
-}
-.ds4 .p1{
-background-position: 0 -28px;
-}
-.ds4 .p2{
-background-position: 0 -49px;
-}
-.ds4 .p3{
-background-position: 0 -70px;
-}*/
-.ds4 .arrows {
-    position: absolute;
-    width: 352px;
-    height: 46px;
-    top: 142px;
-    left: 227px;
-}
 
 .ds4 .back, .ds4 .start {
     background: url(startboyo.svg);
